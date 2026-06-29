@@ -58,6 +58,56 @@
 
 ---
 
+### 🚀 Projects
+
+> 공개 저장소 외에 비공개·사내 프로젝트에서 진행한 작업을 익명화하여 정리했습니다.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🛰️ 실시간 모니터링 백엔드 플랫폼</h4>
+      <p><sub><b>NestJS · TypeScript · gRPC · WebSocket · MQTT</b></sub></p>
+      <ul>
+        <li>NestJS 모노레포 기반 마이크로서비스 아키텍처 설계</li>
+        <li>gRPC · WebSocket · MQTT로 센서 데이터 <b>실시간 수집·전파</b></li>
+        <li>PostgreSQL · MongoDB · InfluxDB · Redis <b>멀티 DB</b> 운용</li>
+        <li>레거시(Go) 서버의 NestJS 점진적 <b>마이그레이션</b> 주도</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🔔 알림·이벤트 처리 시스템</h4>
+      <p><sub><b>BullMQ · Outbox Pattern · FCM · Event-Driven</b></sub></p>
+      <ul>
+        <li>도메인 이벤트 기반 알림 fan-out 파이프라인 구축</li>
+        <li><b>Outbox 패턴</b> + Consumer Group으로 전송 신뢰성 확보</li>
+        <li>FCM data-only 푸시 / 다국어 스냅샷 메시지 처리</li>
+        <li>BullMQ 큐로 비동기 작업·재시도 처리</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏢 멀티테넌시 아키텍처</h4>
+      <p><sub><b>PostgreSQL search_path · TenantContext · TypeORM</b></sub></p>
+      <ul>
+        <li>스키마 분리(search_path) 기반 <b>멀티테넌트</b> 전환 설계</li>
+        <li>요청 단위 TenantContext 전파(미들웨어·Bull·Cron)</li>
+        <li>JWT · 서브도메인 · 헤더 3-tier 테넌트 식별 전략</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🤖 객체 탐지 · 데이터 분석</h4>
+      <p><sub><b>Python · YOLOv5 · Jupyter</b></sub></p>
+      <ul>
+        <li>YOLOv5 기반 객체 탐지 모델 실험</li>
+        <li>빅데이터 전처리·분석 (Jupyter / Pandas)</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
 ### 📫 Contact
 
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seongbeop0@gmail.com)
